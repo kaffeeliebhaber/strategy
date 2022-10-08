@@ -1,0 +1,30 @@
+Spielname: General
+
+Es gibt ein Spielbrett auf dem Figuren platziert werden.
+Jede Figure kann definierte Schritt gehen. In den meisten Fällen 1 Feld (links, rechts, vor, zurück) [Scout soweit wie er möchte]
+Es gilt für das Angreifen und Verteidigen das Schere-Stein-Papier Prinzip.
+
+Es gibt die Fahne, die erreicht werden muss, um das Spiel zu gewinnen.
+Es gibt Bomben, bei der eine angreifende Figur direkt stirbt.
+
+Für jeden Zug hat jeder Spieler eine definierte Zeit zeit.
+Es muss die Möglichkeit geben, gegen einen CPU (Engine kann dafür geschrieben werden) oder einen Menschen gespielt werden.
+
+
+Zusatz
+* Neue Spielfelder können erstellt und geladen werden
+
+
+
+
+Offene Fragen:
+() Welche Figuren wird es geben?
+() Wie scher ist es umzusetzen, dass man über das Internet spielen kann?
+() Eventuell das Ganze als App?
+
+
+
+
+Vergleiche
+https://stratego.de.malavida.com/android/
+

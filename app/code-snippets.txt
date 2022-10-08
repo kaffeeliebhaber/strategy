@@ -1,0 +1,3 @@
+
+
+//final BufferedImage image = ImageLoader.loadImageFromResource("/images/suche.png");
