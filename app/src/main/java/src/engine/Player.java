@@ -16,6 +16,11 @@ public abstract class Player {
         this.placementArea = placementArea;
     }
 
+    public abstract void place();
+
+    public abstract void move();
+
+    /*
     public void addGamePieces(final List<GamePiece> gamePieces) {
         this.gamePieces = gamePieces;
     }
@@ -60,8 +65,6 @@ public abstract class Player {
 
         return gameMove;
     }
-
-    protected abstract GameMove move();
-    protected abstract GameMove place();
+    */
 
 }

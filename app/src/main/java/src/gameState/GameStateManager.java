@@ -76,6 +76,24 @@ public final class GameStateManager {
         }
     }
 
+    public void mouseClicked(MouseEvent e) {
+        if (isCurrentGameStateConfigured()) {
+            currentGameState.mouseClicked(e);
+        }
+    }
+
+    public void mousePressed(MouseEvent e) {
+        if (isCurrentGameStateConfigured()) {
+            currentGameState.mousePressed(e);
+        }
+    }
+
+    public void mouseReleased(MouseEvent e) {
+        if (isCurrentGameStateConfigured()) {
+            currentGameState.mouseReleased(e);
+        }
+    }
+
     public void mouseExited(MouseEvent e) {
         if (isCurrentGameStateConfigured()) {
             currentGameState.mouseExited(e);

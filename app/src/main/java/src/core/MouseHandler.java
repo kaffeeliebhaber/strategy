@@ -19,11 +19,11 @@ public class MouseHandler implements MouseMotionListener, MouseListener {
 
     // MOUSE LISTENER.
 
-    @Override public void mouseClicked(MouseEvent e) { }
+    @Override public void mouseClicked(MouseEvent e) { game.mouseClicked(e); }
 
-    @Override public void mousePressed(MouseEvent e) { }
+    @Override public void mousePressed(MouseEvent e) { game.mousePressed(e); }
 
-    @Override public void mouseReleased(MouseEvent e) { }
+    @Override public void mouseReleased(MouseEvent e) { game.mouseReleased(e); }
 
     @Override public void mouseEntered(MouseEvent e) { game.mouseEntered(e); }
 

@@ -42,4 +42,10 @@ public class GameStratego extends GameBase {
 
     @Override public void mouseExited(MouseEvent e) { gameStateManager.mouseExited(e); }
 
+    @Override public void mouseClicked(MouseEvent e) { gameStateManager.mouseClicked(e); }
+
+    @Override public void mousePressed(MouseEvent e) { gameStateManager.mousePressed(e); }
+
+    @Override public void mouseReleased(MouseEvent e) { gameStateManager.mouseReleased(e); }
+
 }

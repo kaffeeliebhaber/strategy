@@ -13,6 +13,7 @@ public class GameField {
     }
 
     public void setIsLocked(boolean isLocked) { this.isLocked = isLocked; }
+
     public boolean isLocked() { return isLocked; }
 
     public void setGamePiece(final GamePiece gamePiece) {
